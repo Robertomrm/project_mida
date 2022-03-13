@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta name="Description" CONTENT="Author: DOLA, Illustrator: P. Picture, Category: BUS, TRANSPORT, Réservation, TOGO, GHANA, COTE D'IVOIRE, BENIN, NIGERIA, AFRIQUE">
+        <title>Rerservation de bus</title>
+        <link rel="shortcut icon" type="image/png" href="images/logoucao.png"/>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body> 
+        <!-- Nav bar-->
+
+        <nav class="navbar">
+            <h1 class="logo">Réservation</h1>
+            <ul class="nav-links">
+                <li class="active"><a href="index.html">ACCUEIL</a></li>
+                <li><a href="#about">A PROPOS</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#compagnies">COMPAGNIES</a></li>
+                <li><a href="#contact"  class="ctn">CONTACT</a></li>
+            </ul>
+            
+            <img  src="images/menu-white.png" alt="" class="menu-btn">
+        
+        </nav>
+
+        <header>    
+            <div class="header-content">
+                <h2>Rerservation de bus </h2>
+                <div class="line"></div>
+                <h1>Réservation & <br><span>Ticket de bus</span></h1>
+                <p> 
+                    Ce site web vous permet de réserver facilement un ticket de bus sans tierce personne. <br>  
+                    Cependant, vous pouvez (et nous le conseillons vivement) vous 
+                    servir de toutes les ressources à votre disposition (Internet, livres, etc.). <br> 
+                    Vous pouvez également utiliser votre environnement de développement préféré pour 
+                    comprendre les codes.
+                    L'internet est à votre disposition pour vous permettre de vous familiariser avec les langages dans les meilleures conditions.
+                </p> 
+                <a href="mailto:matthiasdola@gmail.com" class="ctn" >Faire une Reservation</a>
+            </div>
+        </header>
+        <!-- Activités-->
+        <section id="services" class="events">
+            <div class="title">
+                
+                <h1>Service que nous fournissons</h1>
+                
+                <div class="line"></div>
+                <div class="row">
+                    <div class="col">
+                        <img src="images/bus1.png" alt="">
+                        <h4>Reservation de bus</h4>
+                        <p></p>
+                        <a href="#" class="ctn">Lire plus</a>
+                    </div>
+                    <div class="col">
+                        <img src="images/coli.jpeg" alt="">
+                        <h4>Envoi de colis</h4>
+                        <p></p>                        
+                        <a href="#" class="ctn">Lire plus</a>
+                    </div>
+                    <div class="col">
+                        <img src="images/money.jpeg" alt="">
+                        <h4>Envoi d'argent</h4>
+                        <p></p>                        
+                        <a href="#" class="ctn">Lire plus</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="compagnies" class="explore">
+            <div class="explore-content">
+                <h1>Les compagnies de transport</h1>
+                <div class="line"></div>
+                
+                <p> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, et soluta. <br>
+                    Animi perspiciatis ut voluptatum repudiandae eos eius necessitatibus dignissimos <br>
+                    pariatur laudantium officia labore sequi sunt, voluptatibus maxime saepe dolor.
+                    A suivre ..............   
+                </p>                       
+                
+                <a href="#" class="ctn">Lire plus</a>    
+            </div>
+  
+        </section>
+        <section id="contact" class="footer">
+            <p>Lome, TOGO | Phone: 00228 91 74 67 97 | Email: matthiaasdola@gmail.com </p>
+            <p>Copyright c 2022 CEEL TECHNOLOGIES</p>
+        </section>
+        <script>
+            const menuBtn = document.querySelector('.menu-btn');
+            const navLinks = document.querySelector('.nav-links');
+            menuBtn.addEventListener('click', () => {
+                navLinks.classList.toggle('mobile-menu');
+            });
+
+        </script>
+    </body>
+</html>
